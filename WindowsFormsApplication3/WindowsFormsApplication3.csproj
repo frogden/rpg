@@ -77,9 +77,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\rtr\rtr.csproj">
-      <Project>{C118A402-FBFB-4968-9D39-623536E81D24}</Project>
-      <Name>rtr</Name>
+    <ProjectReference Include="..\rpg\rpg.csproj">
+      <Project>{1115fcea-8d2a-48c2-a337-2a82cacde1f0}</Project>
+      <Name>rpg</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
