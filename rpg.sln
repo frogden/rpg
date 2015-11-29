@@ -1,20 +1,26 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rpg", "rpg\rpg.csproj", "{1115FCEA-8D2A-48C2-A337-2A82CACDE1F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication3", "WindowsFormsApplication3\WindowsFormsApplication3.csproj", "{BC89F54F-1C10-4D44-A01D-93DB74208601}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1115FCEA-8D2A-48C2-A337-2A82CACDE1F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1115FCEA-8D2A-48C2-A337-2A82CACDE1F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1115FCEA-8D2A-48C2-A337-2A82CACDE1F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1115FCEA-8D2A-48C2-A337-2A82CACDE1F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1115FCEA-8D2A-48C2-A337-2A82CACDE1F0}.Debug|x86.ActiveCfg = Debug|x86
+		{1115FCEA-8D2A-48C2-A337-2A82CACDE1F0}.Debug|x86.Build.0 = Debug|x86
+		{1115FCEA-8D2A-48C2-A337-2A82CACDE1F0}.Release|x86.ActiveCfg = Release|x86
+		{1115FCEA-8D2A-48C2-A337-2A82CACDE1F0}.Release|x86.Build.0 = Release|x86
+		{BC89F54F-1C10-4D44-A01D-93DB74208601}.Debug|x86.ActiveCfg = Debug|x86
+		{BC89F54F-1C10-4D44-A01D-93DB74208601}.Debug|x86.Build.0 = Debug|x86
+		{BC89F54F-1C10-4D44-A01D-93DB74208601}.Release|x86.ActiveCfg = Release|x86
+		{BC89F54F-1C10-4D44-A01D-93DB74208601}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
