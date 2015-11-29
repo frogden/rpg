@@ -31,7 +31,9 @@ namespace WindowsFormsApplication3
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            progressBar1.Maximum = titan1.Hp;
             LabelUpdate();
+            progressBarUpdate();
         }
         void LabelUpdate()
         {
@@ -74,6 +76,7 @@ namespace WindowsFormsApplication3
             label_h2a.Text = "броня: " + halk1.Armor.ToString();
             label_h2h.Text = "здоровье: " + halk1.Hp.ToString();
             label_h2m.Text = "мана: " + halk1.Mp.ToString(); 
+            // //
         }
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -86,6 +89,7 @@ namespace WindowsFormsApplication3
             targets.Add(titan1);
             listBox1.Items.Add(ninja1.Skill1(targets));
             LabelUpdate();
+            progressBarUpdate();
         }
 
         private void titan_button2_Click(object sender, EventArgs e)
@@ -94,6 +98,7 @@ namespace WindowsFormsApplication3
             targets.Add(titan1);
             listBox1.Items.Add(titan1.Skill1(targets));
             LabelUpdate();
+            progressBarUpdate();
         }
 
         private void astronomer_button3_Click(object sender, EventArgs e)
@@ -103,6 +108,7 @@ namespace WindowsFormsApplication3
             targets.Add(titan1);
             listBox1.Items.Add(astronomer1.Skill1(targets));
             LabelUpdate();
+            progressBarUpdate();
         }
 
         private void sisadmin_button4_Click(object sender, EventArgs e)
@@ -111,6 +117,7 @@ namespace WindowsFormsApplication3
             targets.Add(titan1);
             listBox1.Items.Add(sisadmin1.Skill1(targets));
             LabelUpdate();
+            progressBarUpdate();
         }
 
         private void halk_button5_Click_1(object sender, EventArgs e)
@@ -119,6 +126,16 @@ namespace WindowsFormsApplication3
             targets.Add(titan1);
             listBox1.Items.Add(halk1.Skill1(targets));
             LabelUpdate();
+            progressBarUpdate();
+        }
+
+        private void progressBarUpdate()
+        {
+            if (titan1.Hp > 500)
+            {
+                titan1.Hp = 500;
+            }
+            progressBar1.Value = titan1.Hp;
         }        
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -69,422 +70,273 @@
             this.label_h2a = new System.Windows.Forms.Label();
             this.label_h2h = new System.Windows.Forms.Label();
             this.label_h2m = new System.Windows.Forms.Label();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(292, 9);
+            resources.ApplyResources(this.button1, "button1");
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 45);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Сюрикен";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.ninja_button1_Click);
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(434, 5);
+            resources.ApplyResources(this.button2, "button2");
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(136, 52);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Улучшение брони";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.titan_button2_Click);
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button3.Location = new System.Drawing.Point(292, 71);
+            resources.ApplyResources(this.button3, "button3");
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(136, 45);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Армагедон";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.astronomer_button3_Click);
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button4.Location = new System.Drawing.Point(434, 71);
+            resources.ApplyResources(this.button4, "button4");
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(136, 45);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Лечение";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.sisadmin_button4_Click);
             // 
             // button5
             // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button5.Location = new System.Drawing.Point(361, 122);
+            resources.ApplyResources(this.button5, "button5");
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(136, 45);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Сила Халка";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.halk_button5_Click_1);
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 12);
+            resources.ApplyResources(this.listBox1, "listBox1");
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(274, 251);
-            this.listBox1.TabIndex = 5;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(857, 3);
+            resources.ApplyResources(this.button6, "button6");
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(25, 21);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "button6";
             this.button6.UseVisualStyleBackColor = true;
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(857, 32);
+            resources.ApplyResources(this.button7, "button7");
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(25, 25);
-            this.button7.TabIndex = 7;
-            this.button7.Text = "button7";
             this.button7.UseVisualStyleBackColor = true;
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(857, 71);
+            resources.ApplyResources(this.button8, "button8");
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(25, 28);
-            this.button8.TabIndex = 8;
-            this.button8.Text = "button8";
             this.button8.UseVisualStyleBackColor = true;
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(859, 114);
+            resources.ApplyResources(this.button9, "button9");
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(23, 24);
-            this.button9.TabIndex = 9;
-            this.button9.Text = "button9";
             this.button9.UseVisualStyleBackColor = true;
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(857, 165);
+            resources.ApplyResources(this.button10, "button10");
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(24, 23);
-            this.button10.TabIndex = 10;
-            this.button10.Text = "button10";
             this.button10.UseVisualStyleBackColor = true;
             // 
             // label_n1a
             // 
-            this.label_n1a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_n1a, "label_n1a");
             this.label_n1a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_n1a.Location = new System.Drawing.Point(95, 275);
             this.label_n1a.Name = "label_n1a";
-            this.label_n1a.Size = new System.Drawing.Size(100, 23);
-            this.label_n1a.TabIndex = 11;
-            this.label_n1a.Text = "label1";
             // 
             // label_n1h
             // 
-            this.label_n1h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_n1h, "label_n1h");
             this.label_n1h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_n1h.Location = new System.Drawing.Point(97, 299);
             this.label_n1h.Name = "label_n1h";
-            this.label_n1h.Size = new System.Drawing.Size(100, 23);
-            this.label_n1h.TabIndex = 12;
-            this.label_n1h.Text = "label2";
             // 
             // label_n1m
             // 
-            this.label_n1m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_n1m, "label_n1m");
             this.label_n1m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_n1m.Location = new System.Drawing.Point(95, 322);
             this.label_n1m.Name = "label_n1m";
-            this.label_n1m.Size = new System.Drawing.Size(100, 23);
-            this.label_n1m.TabIndex = 13;
-            this.label_n1m.Text = "label3";
             // 
             // label_t1a
             // 
-            this.label_t1a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_t1a, "label_t1a");
             this.label_t1a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_t1a.Location = new System.Drawing.Point(279, 276);
             this.label_t1a.Name = "label_t1a";
-            this.label_t1a.Size = new System.Drawing.Size(100, 23);
-            this.label_t1a.TabIndex = 14;
-            this.label_t1a.Text = "label4";
             // 
             // label_t1h
             // 
-            this.label_t1h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_t1h, "label_t1h");
             this.label_t1h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_t1h.Location = new System.Drawing.Point(280, 299);
             this.label_t1h.Name = "label_t1h";
-            this.label_t1h.Size = new System.Drawing.Size(100, 23);
-            this.label_t1h.TabIndex = 15;
-            this.label_t1h.Text = "label5";
             // 
             // label_t1m
             // 
-            this.label_t1m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_t1m, "label_t1m");
             this.label_t1m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_t1m.Location = new System.Drawing.Point(279, 322);
             this.label_t1m.Name = "label_t1m";
-            this.label_t1m.Size = new System.Drawing.Size(100, 23);
-            this.label_t1m.TabIndex = 16;
-            this.label_t1m.Text = "label6";
             // 
             // label_a1a
             // 
-            this.label_a1a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_a1a, "label_a1a");
             this.label_a1a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_a1a.Location = new System.Drawing.Point(95, 365);
             this.label_a1a.Name = "label_a1a";
-            this.label_a1a.Size = new System.Drawing.Size(100, 23);
-            this.label_a1a.TabIndex = 17;
-            this.label_a1a.Text = "label7";
             // 
             // label_a1h
             // 
-            this.label_a1h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_a1h, "label_a1h");
             this.label_a1h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_a1h.Location = new System.Drawing.Point(97, 390);
             this.label_a1h.Name = "label_a1h";
-            this.label_a1h.Size = new System.Drawing.Size(100, 23);
-            this.label_a1h.TabIndex = 18;
-            this.label_a1h.Text = "label8";
             // 
             // label_a1m
             // 
-            this.label_a1m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_a1m, "label_a1m");
             this.label_a1m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_a1m.Location = new System.Drawing.Point(95, 413);
             this.label_a1m.Name = "label_a1m";
-            this.label_a1m.Size = new System.Drawing.Size(100, 23);
-            this.label_a1m.TabIndex = 19;
-            this.label_a1m.Text = "label9";
             // 
             // label_s1a
             // 
-            this.label_s1a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_s1a, "label_s1a");
             this.label_s1a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_s1a.Location = new System.Drawing.Point(279, 365);
             this.label_s1a.Name = "label_s1a";
-            this.label_s1a.Size = new System.Drawing.Size(100, 23);
-            this.label_s1a.TabIndex = 20;
-            this.label_s1a.Text = "label10";
             // 
             // label_s1h
             // 
-            this.label_s1h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_s1h, "label_s1h");
             this.label_s1h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_s1h.Location = new System.Drawing.Point(280, 390);
             this.label_s1h.Name = "label_s1h";
-            this.label_s1h.Size = new System.Drawing.Size(100, 23);
-            this.label_s1h.TabIndex = 21;
-            this.label_s1h.Text = "label11";
             // 
             // label_s1m
             // 
-            this.label_s1m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_s1m, "label_s1m");
             this.label_s1m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_s1m.Location = new System.Drawing.Point(279, 412);
             this.label_s1m.Name = "label_s1m";
-            this.label_s1m.Size = new System.Drawing.Size(100, 23);
-            this.label_s1m.TabIndex = 22;
-            this.label_s1m.Text = "label12";
             // 
             // label_h1a
             // 
-            this.label_h1a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_h1a, "label_h1a");
             this.label_h1a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_h1a.Location = new System.Drawing.Point(198, 456);
             this.label_h1a.Name = "label_h1a";
-            this.label_h1a.Size = new System.Drawing.Size(100, 23);
-            this.label_h1a.TabIndex = 23;
-            this.label_h1a.Text = "label13";
             // 
             // label_h1h
             // 
-            this.label_h1h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_h1h, "label_h1h");
             this.label_h1h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_h1h.Location = new System.Drawing.Point(199, 480);
             this.label_h1h.Name = "label_h1h";
-            this.label_h1h.Size = new System.Drawing.Size(100, 23);
-            this.label_h1h.TabIndex = 24;
-            this.label_h1h.Text = "label14";
             // 
             // label_h1m
             // 
-            this.label_h1m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_h1m, "label_h1m");
             this.label_h1m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_h1m.Location = new System.Drawing.Point(198, 499);
             this.label_h1m.Name = "label_h1m";
-            this.label_h1m.Size = new System.Drawing.Size(100, 23);
-            this.label_h1m.TabIndex = 25;
-            this.label_h1m.Text = "label15";
             // 
             // label_n2a
             // 
-            this.label_n2a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_n2a, "label_n2a");
             this.label_n2a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_n2a.Location = new System.Drawing.Point(564, 276);
             this.label_n2a.Name = "label_n2a";
-            this.label_n2a.Size = new System.Drawing.Size(100, 23);
-            this.label_n2a.TabIndex = 26;
-            this.label_n2a.Text = "label16";
             // 
             // label_n2h
             // 
-            this.label_n2h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_n2h, "label_n2h");
             this.label_n2h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_n2h.Location = new System.Drawing.Point(565, 299);
             this.label_n2h.Name = "label_n2h";
-            this.label_n2h.Size = new System.Drawing.Size(100, 23);
-            this.label_n2h.TabIndex = 27;
-            this.label_n2h.Text = "label17";
             // 
             // label_n2m
             // 
-            this.label_n2m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_n2m, "label_n2m");
             this.label_n2m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_n2m.Location = new System.Drawing.Point(564, 322);
             this.label_n2m.Name = "label_n2m";
-            this.label_n2m.Size = new System.Drawing.Size(100, 23);
-            this.label_n2m.TabIndex = 28;
-            this.label_n2m.Text = "label18";
             // 
             // label_t2a
             // 
-            this.label_t2a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_t2a, "label_t2a");
             this.label_t2a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_t2a.Location = new System.Drawing.Point(782, 271);
             this.label_t2a.Name = "label_t2a";
-            this.label_t2a.Size = new System.Drawing.Size(100, 23);
-            this.label_t2a.TabIndex = 29;
-            this.label_t2a.Text = "label19";
             // 
             // label_t2h
             // 
-            this.label_t2h.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_t2h, "label_t2h");
             this.label_t2h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_t2h.Location = new System.Drawing.Point(783, 294);
             this.label_t2h.Name = "label_t2h";
-            this.label_t2h.Size = new System.Drawing.Size(100, 23);
-            this.label_t2h.TabIndex = 30;
-            this.label_t2h.Text = "label20";
             // 
             // label_t2m
             // 
-            this.label_t2m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_t2m, "label_t2m");
             this.label_t2m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_t2m.Location = new System.Drawing.Point(782, 322);
             this.label_t2m.Name = "label_t2m";
-            this.label_t2m.Size = new System.Drawing.Size(100, 23);
-            this.label_t2m.TabIndex = 31;
-            this.label_t2m.Text = "label21";
             // 
             // label_a2a
             // 
-            this.label_a2a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_a2a, "label_a2a");
             this.label_a2a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_a2a.Location = new System.Drawing.Point(564, 366);
             this.label_a2a.Name = "label_a2a";
-            this.label_a2a.Size = new System.Drawing.Size(100, 23);
-            this.label_a2a.TabIndex = 32;
-            this.label_a2a.Text = "label22";
             // 
             // label_a2h
             // 
-            this.label_a2h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_a2h, "label_a2h");
             this.label_a2h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_a2h.Location = new System.Drawing.Point(565, 390);
             this.label_a2h.Name = "label_a2h";
-            this.label_a2h.Size = new System.Drawing.Size(100, 23);
-            this.label_a2h.TabIndex = 33;
-            this.label_a2h.Text = "label23";
             // 
             // label_a2m
             // 
-            this.label_a2m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_a2m, "label_a2m");
             this.label_a2m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_a2m.Location = new System.Drawing.Point(564, 413);
             this.label_a2m.Name = "label_a2m";
-            this.label_a2m.Size = new System.Drawing.Size(100, 23);
-            this.label_a2m.TabIndex = 34;
-            this.label_a2m.Text = "label24";
             // 
             // label_s2a
             // 
-            this.label_s2a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_s2a, "label_s2a");
             this.label_s2a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_s2a.Location = new System.Drawing.Point(782, 366);
             this.label_s2a.Name = "label_s2a";
-            this.label_s2a.Size = new System.Drawing.Size(100, 23);
-            this.label_s2a.TabIndex = 35;
-            this.label_s2a.Text = "label25";
             // 
             // label_s2h
             // 
-            this.label_s2h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_s2h, "label_s2h");
             this.label_s2h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_s2h.Location = new System.Drawing.Point(783, 390);
             this.label_s2h.Name = "label_s2h";
-            this.label_s2h.Size = new System.Drawing.Size(100, 23);
-            this.label_s2h.TabIndex = 36;
-            this.label_s2h.Text = "label26";
             // 
             // label_s2m
             // 
-            this.label_s2m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_s2m, "label_s2m");
             this.label_s2m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_s2m.Location = new System.Drawing.Point(782, 412);
             this.label_s2m.Name = "label_s2m";
-            this.label_s2m.Size = new System.Drawing.Size(100, 23);
-            this.label_s2m.TabIndex = 37;
-            this.label_s2m.Text = "label27";
             // 
             // label_h2a
             // 
-            this.label_h2a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_h2a, "label_h2a");
             this.label_h2a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_h2a.Location = new System.Drawing.Point(686, 456);
             this.label_h2a.Name = "label_h2a";
-            this.label_h2a.Size = new System.Drawing.Size(100, 23);
-            this.label_h2a.TabIndex = 38;
-            this.label_h2a.Text = "label28";
             // 
             // label_h2h
             // 
-            this.label_h2h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_h2h, "label_h2h");
             this.label_h2h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_h2h.Location = new System.Drawing.Point(687, 480);
             this.label_h2h.Name = "label_h2h";
-            this.label_h2h.Size = new System.Drawing.Size(100, 23);
-            this.label_h2h.TabIndex = 39;
-            this.label_h2h.Text = "label29";
             // 
             // label_h2m
             // 
-            this.label_h2m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label_h2m, "label_h2m");
             this.label_h2m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_h2m.Location = new System.Drawing.Point(686, 501);
             this.label_h2m.Name = "label_h2m";
-            this.label_h2m.Size = new System.Drawing.Size(100, 23);
-            this.label_h2m.TabIndex = 40;
-            this.label_h2m.Text = "label30";
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.BackColor = System.Drawing.SystemColors.Control;
+            this.progressBar1.ForeColor = System.Drawing.Color.Red;
+            resources.ApplyResources(this.progressBar1, "progressBar1");
+            this.progressBar1.Name = "progressBar1";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(900, 547);
+            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.label_h2m);
             this.Controls.Add(this.label_h2h);
             this.Controls.Add(this.label_h2a);
@@ -527,7 +379,6 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
@@ -576,6 +427,7 @@
         private System.Windows.Forms.Label label_h2a;
         private System.Windows.Forms.Label label_h2h;
         private System.Windows.Forms.Label label_h2m;
+        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }
 
